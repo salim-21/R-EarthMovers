@@ -340,23 +340,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* CONTACT FORM */}
-      {/* <section id="contact" className="contact">
-        <h2>Book Now / Contact Us</h2>
-        <form onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="name" required />
-          <input type="email" name="email" placeholder="email" required />
-          <input type="text" name="phone" placeholder="phone" required />
-          <textarea name="message" placeholder="Message" required></textarea>
-          <button className="btn">Send Message</button>
-        </form>
-      </section> */}
-
-      {/* FOOTER */}
-      {/* <footer>
-        <p>© 2026 NA Construction | Call: +91 9528754252</p>
-        
-      </footer> */} {/* CONTACT INFO */}
       <section id="contact" className="contact">
         <h2>Contact Us</h2>
         <div className="contact-info">
@@ -378,9 +361,28 @@ export default function App() {
       <footer>
         <p>&copy; 2026 JCB Construction Services. All rights reserved.</p>
         <div className="social-links">
-          <a href="https://www.instagram.com/samir_aashu.5673?igsh=MTE0emF0enhzbzF3Ng==">Instagram</a>
-          <a href="#">Facebook</a>
-          <a href="#">LinkedIn</a>
+<a 
+  href="https://www.instagram.com/samir_aashu.5673" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Instagram
+</a>
+<a 
+  href="https://www.instagram.com/samir_aashu.5673" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Facebook
+</a>
+<a 
+  href="https://www.instagram.com/samir_aashu.5673" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  LinkedIn
+</a>
+         
         </div>
       </footer>
     </div>
@@ -389,4 +391,3 @@ export default function App() {
 
 
 
-// /sdfvgbnm,.

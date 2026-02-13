@@ -196,8 +196,8 @@ export default function App() {
   // State for carousel
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", // JCB excavator
-    "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", // JCB construction machine (loader)
+    "https://img.freepik.com/free-photo/heavy-machinery-used-construction-industry-engineering_23-2151307734.jpg?semt=ais_hybrid&w=740&q=80", // JCB excavator
+    "https://thumbs.dreamstime.com/b/yellow-backhoe-loader-shown-lifting-rubble-twisted-metal-debris-its-front-bucket-construction-site-sunset-422930186.jpg", // JCB construction machine (loader)
     "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" // Demolition with JCB
   ];
 
